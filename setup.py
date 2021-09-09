@@ -25,7 +25,7 @@ setup(
     name="pymt_era5",
     author="Tian Gan",
     author_email="gantian127@gmail.com",
-    description="PyMT plugin for pymt_era5",
+    description="PyMT plugin for ERA5 dataset",
     long_description=long_description,
     version="0.1",
     url="https://github.com/gantian127/pymt_era5",
