@@ -1,6 +1,6 @@
 .. image:: _static/logo.png
     :align: center
-    :scale: 35%
+    :scale: 16%
     :alt: pymt_era5
     :target: https://pymt_era5.readthedocs.io/
 
