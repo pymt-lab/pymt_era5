@@ -69,15 +69,16 @@ Installing pymt_era5
 --------------------
 
 Please make sure to first install the `CDS API <https://cds.climate.copernicus.eu/api-how-to>`_
-and then follow the command below to install `pymt_era5`:
+and then install `pymt_era5` using pip
 
 .. code::
 
   pip install pymt_era5
 
-.. or
+or conda
 
-.. .. code::
+.. code::
+
   conda install -c conda-forge pytm_era5
 
 --------------
