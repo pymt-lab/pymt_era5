@@ -27,10 +27,10 @@ pymt_era5
         :target: https://github.com/gantian127/pymt_era5/actions/workflows/black.yml
 
 
-pymt_era5 is a package that converts `ERA5 datasets <https://confluence.ecmwf.int/display/CKB/ERA5>`_ into a reusable,
+pymt_era5 is a package that converts `bmi_era5 package <https://github.com/gantian127/bmi_era5>`_ into a reusable,
 plug-and-play data component for `PyMT <https://pymt.readthedocs.io/en/latest/?badge=latest>`_ modeling framework
 developed by Community Surface Dynamics Modeling System (`CSDMS <https://csdms.colorado.edu/wiki/Main_Page>`_).
-This allows ERA5 datasets (currently support 3 dimensional data) to be easily coupled with other datasets or models that expose
+This allows `ERA5 datasets <https://confluence.ecmwf.int/display/CKB/ERA5>`_ (currently support 3 dimensional data) to be easily coupled with other datasets or models that expose
 a `Basic Model Interface <https://bmi.readthedocs.io/en/latest/>`_.
 
 ---------------
