@@ -12,48 +12,25 @@ This allows ERA5 datasets (currently support 3 dimensional data) to be easily co
 a `Basic Model Interface <https://bmi.readthedocs.io/en/latest/>`_.
 
 ---------------
-Installing pymt
+Installation
 ---------------
 
-Installing `pymt` from the `conda-forge` channel can be achieved by adding
-`conda-forge` to your channels with:
+Install the pymt in a new environment:
 
 .. code::
 
-  conda config --add channels conda-forge
-
-*Note*: Before installing `pymt`, you may want to create a separate environment
-into which to install it. This can be done with,
-
-.. code::
-
-  conda create -n pymt python=3
-  conda activate pymt
-
-Once the `conda-forge` channel has been enabled, `pymt` can be installed with:
-
-.. code::
-
-  conda install pymt
-
-It is possible to list all of the versions of `pymt` available on your platform with:
-
-.. code::
-
-  conda search pymt --channel conda-forge
-
---------------------
-Installing pymt_era5
---------------------
+    $ conda config --add channels conda-forge
+    $ conda create -n pymt -c conda-forge python=3 pymt
+    $ conda activate pymt
 
 Please make sure to first install the `CDS API <https://cds.climate.copernicus.eu/api-how-to>`_
-and then follow the command below to install `pymt_era5`:
+and then install the pymt_era5 using pip:
 
 .. code::
 
   pip install pymt_era5
 
-or
+or conda
 
 .. code::
   conda install -c conda-forge pytm_era5
