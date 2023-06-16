@@ -2,7 +2,7 @@
     :align: center
     :scale: 16%
     :alt: pymt_era5
-    :target: https://pymt_era5.readthedocs.io/
+    :target: https://pymt-era5.readthedocs.io/en/latest/
 
 
 `pymt_era5 <https://github.com/gantian127/pymt_era5/>`_ is a package that converts `ERA5 datasets <https://confluence.ecmwf.int/display/CKB/ERA5>`_ into a reusable,
@@ -53,9 +53,9 @@ and then follow the command below to install `pymt_era5`:
 
   pip install pymt_era5
 
-.. or
+or
 
-.. .. code::
+.. code::
   conda install -c conda-forge pytm_era5
 
 --------------
@@ -135,8 +135,5 @@ You can learn more details about the coding example from the
 |tif_plot|
 
 .. links:
-
-.. |binder| image:: https://mybinder.org/badge_logo.svg
- :target: https://mybinder.org/v2/gh/gantian127/pymt_era5/master?filepath=notebooks%2Fpymt_era5.ipynb
 
 .. |tif_plot| image:: _static/tif_plot.png
