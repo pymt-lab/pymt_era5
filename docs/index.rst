@@ -33,6 +33,7 @@ and then install the pymt_era5 using pip:
 or conda
 
 .. code::
+
   conda install -c conda-forge pytm_era5
 
 --------------
