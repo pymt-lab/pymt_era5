@@ -20,4 +20,3 @@ def install_cds(config_path=""):
     # install = subprocess.run(["pip", "install", "cdsapi"], check=True)
     # if install.returncode == 0:
     #     print('cdsapi package is successfully installed.')
-    

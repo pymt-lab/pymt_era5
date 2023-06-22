@@ -48,9 +48,9 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = u"pymt_era5"
-copyright = u"2021, Tian Gan"
-author = u"Tian Gan"
+project = "pymt_era5"
+copyright = "2021, Tian Gan"
+author = "Tian Gan"
 
 # The version info for the project you're documenting, acts as replacement
 # for |version| and |release|, also used in various other places throughout
@@ -79,7 +79,7 @@ pygments_style = "sphinx"
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
 
-#The name of an image file (relative to this directory) to place at the top
+# The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
 html_logo = "_static/powered-by-logo-header.png"
 
@@ -129,7 +129,7 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass
 # [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, "pymt_era5.tex", u"pymt_era5 Documentation", u"Tian Gan", "manual"),
+    (master_doc, "pymt_era5.tex", "pymt_era5 Documentation", "Tian Gan", "manual"),
 ]
 
 
@@ -137,7 +137,7 @@ latex_documents = [
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [(master_doc, "pymt_era5", u"pymt_era5 Documentation", [author], 1)]
+man_pages = [(master_doc, "pymt_era5", "pymt_era5 Documentation", [author], 1)]
 
 
 # -- Options for Texinfo output ----------------------------------------
@@ -149,7 +149,7 @@ texinfo_documents = [
     (
         master_doc,
         "pymt_era5",
-        u"pymt_era5 Documentation",
+        "pymt_era5 Documentation",
         author,
         "pymt_era5",
         "One line description of project.",
