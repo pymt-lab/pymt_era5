@@ -53,4 +53,5 @@ jobs:
       - name: Test
         run: |
           python -c 'import pymt_era5'
-          bmi-test pymt_era5.bmi:Era5 -vvv
+
+# future test may add: bmi-test pymt_era5.bmi:Era5 -vvv
