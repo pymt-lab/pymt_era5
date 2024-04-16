@@ -81,7 +81,7 @@ or conda
 
 .. code::
 
-  conda install -c conda-forge pytm_era5
+  conda install -c conda-forge pymt_era5
 
 --------------
 Coding Example
