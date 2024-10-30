@@ -46,7 +46,7 @@ jobs:
 
       - name: Test
         run: |
-          python -c 'import pymt_roms'
+          python -c 'import pymt_era5'
 
 # future test to add bmi-test pymt_roms.bmi:Roms -vvv
 
