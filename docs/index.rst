@@ -23,8 +23,7 @@ Install the pymt in a new environment:
     $ conda create -n pymt -c conda-forge python=3 pymt
     $ conda activate pymt
 
-Please make sure to first install the `CDS API <https://cds.climate.copernicus.eu/api-how-to>`_
-and then install the pymt_era5 using pip:
+To install pymt_era5, use pip:
 
 .. code::
 

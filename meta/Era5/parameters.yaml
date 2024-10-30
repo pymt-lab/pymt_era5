@@ -4,7 +4,6 @@ name:
   value:
     type: string
     default: reanalysis-era5-single-levels
-    units: 1
 
 #request:
 #  name: Request
@@ -21,7 +20,6 @@ name:
 #              'format': 'netcdf',
 #              'area': [41, -109, 36, -102],
 #             }
-#    units: 1
 
 path:
   name: Path
@@ -29,4 +27,3 @@ path:
   value:
     type: string
     default: 'single_hour.nc'
-    units: 1

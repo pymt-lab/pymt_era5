@@ -70,8 +70,7 @@ It is possible to list all of the versions of `pymt` available on your platform 
 Installing pymt_era5
 --------------------
 
-Please make sure to first install the `CDS API <https://cds.climate.copernicus.eu/api-how-to>`_
-and then install `pymt_era5` using pip
+To install `pymt_era5`, use pip
 
 .. code::
 
