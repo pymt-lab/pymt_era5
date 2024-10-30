@@ -1,7 +1,6 @@
 from __future__ import absolute_import
 
 import pkg_resources
-
 from bmi_era5 import BmiEra5 as Era5
 
 Era5.__name__ = "Era5"
