@@ -54,4 +54,10 @@ jobs:
         run: |
           python -c 'import pymt_era5'
 
-# future test may add: bmi-test pymt_era5.bmi:Era5 -vvv
+#     Future test using bmi-test, this test will fail now because get start time is
+#     supposed to be 0.0 from bmi-tester, but era5 follows CF time value
+#     - name: Test bmi-test
+#        if: matrix.os != 'windows-latest'  # Skip this step on Windows
+#        working-directory: ${{github.workspace}}/notebooks
+#        run: |
+#          bmi-test pymt_era5.bmi:Era5 --config-file=config_file.yaml --root-dir=. -vvv
